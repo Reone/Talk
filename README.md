@@ -9,7 +9,7 @@ a simple easy thing toast
 * 如果第二次需要显示的内容与第一条一致，且第一条没有显示完，则不会做任何事情
 
 
-- 引用，添加依赖
+## 引用，添加依赖
 ```
 allprojects {
     repositories {
@@ -23,7 +23,7 @@ dependencies {
 
 ```
 
-- 使用，它有如下三种使用方式
+## 使用，它有如下三种使用方式
 1. 如果你的Application中没有做什么事情的话，可以考虑将你应用的Application换成TalkApp
 ```xml
 <application
